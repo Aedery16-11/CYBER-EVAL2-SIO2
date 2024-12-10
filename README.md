@@ -30,8 +30,8 @@ Créer et tester les validations de l'entité Book. Un livre doit avoir un titre
 
 - [ ] Ajoutez les annotations de validation suivantes à l'entité Book :
   - title : Ne peut pas être vide
-  - isbn : Ne peut pas être vide, 
-  - publishedAt : Ne peut pas être vide et doit être une chaine de 14 caractères numériques.
+  - isbn : Ne peut pas être vide et doit être une chaine de 14 caractères numériques,
+  - publishedAt : Ne peut pas être vide
 - [ ] Écrivez un test unitaire pour vérifier que :
   - Un livre sans titre n'est pas valide.
   - Un livre sans ISBN n'est pas valide.
